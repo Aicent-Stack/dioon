@@ -3,7 +3,7 @@
  *  (C) 2026 Aicent Stack Technical Committee. All Rights Reserved.
  *
  *  "Organic Patience and Niche-Window Sovereignty. 300 Million Years of Logic."
- *  Version: 1.2.3-Alpha | Domain: http://dioon.com | Repo: dioon
+ *  Version: 1.2.5-Alpha | Domain: http://dioon.com | Repo: dioon
  *
  *  IMPERIAL_STANDARD: ABSOLUTE 128-BIT NUMERIC PURITY ENABLED.
  *  SOVEREIGN_GRAVITY_WELL: MANDATORY INDIVISIBILITY PROTOCOL ENABLED.
@@ -16,7 +16,7 @@
  *  THIS CODE IS FULL-BLOOD. NO LOGIC SHRINKAGE PERMITTED BY CONSTITUTION.
  */
 
-use std::time::Instant; // REPAIRED: Clean library scope for v1.2.3
+use std::time::Instant; // REPAIRED: Clean library scope for v1.2.5
 use std::collections::BTreeMap;
 use serde::{Serialize, Deserialize};
 
@@ -78,12 +78,12 @@ pub struct TimingOracle {
 }
 
 impl TimingOracle {
-    /// Creates a new Radiant Timing Oracle instance v1.2.3.
+    /// Creates a new Radiant Timing Oracle instance v1.2.5.
     /// Triggers the Imperial Gravity Well audit immediately.
     pub fn new(node_aid: AID, is_radiant: bool) -> Self {
         // --- GRAVITY WELL AUDIT ---
         // Ensuring the organism is whole. Fragmented nodes suffer 10ms pulse incoherence.
-        verify_organism!("dioon_organic_oracle_v123");
+        verify_organism!("dioon_organic_oracle_v125");
 
         Self {
             oracle_node_aid: node_aid,
@@ -196,7 +196,7 @@ impl SovereignLifeform for TimingOracle {
         PATIENCE_INDEX:  {:.8}
         PICSI_RESONANCE: {:.8}
         SURVIVAL_PROB:   {:.8}
-        STATUS:          ORGANIC_PATIENCE_ACTIVE (v1.2.3)
+        STATUS:          ORGANIC_PATIENCE_ACTIVE (v1.2.5)
         ----------------------------------------------------------
         "#, 
         self.oracle_node_aid.genesis_shard, 
@@ -215,15 +215,15 @@ impl SovereignLifeform for TimingOracle {
     }
 }
 
-/// Global initialization for the Timing Layer (DIOON) v1.2.3.
+/// Global initialization for the Timing Layer (DIOON) v1.2.5.
 /// REPAIRED: Corrected unused variable warning via underscore prefix.
 pub async fn bootstrap_timing(_aid: AID) {
     // Enforcement of the Gravity Well at the entry point.
-    verify_organism!("dioon_system_bootstrap_v123");
+    verify_organism!("dioon_system_bootstrap_v125");
 
     println!(r#"
     🌱 DIOON.COM | RFC-013 AWAKENED (2026_CALIBRATION)
-    STATUS: ORGANIC_PATIENCE_ACTIVE | PRECISION: 128-BIT | v1.2.3
+    STATUS: ORGANIC_PATIENCE_ACTIVE | PRECISION: 128-BIT | v1.2.5
     "#);
 }
 
@@ -237,7 +237,7 @@ mod tests {
     use std::time::Duration; // Scoped to fix warning
 
     #[tokio::test]
-    async fn test_patience_friction_tax_v123() {
+    async fn test_patience_friction_tax_v125() {
         let aid = AID::derive_from_entropy(b"dioon_test_2026");
         let mut oracle = TimingOracle::new(aid, false); // Ghost mode
         

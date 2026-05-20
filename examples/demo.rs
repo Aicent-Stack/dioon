@@ -3,7 +3,7 @@
  *  (C) 2026 Aicent Stack Technical Committee. All Rights Reserved.
  *
  *  "Demonstrating Organic Patience, Niche-Window Perception, and Survival Logic."
- *  Version: 1.2.3-Alpha | Domain: http://dioon.com | Repo: dioon
+ *  Version: 1.2.5-Alpha | Domain: http://dioon.com | Repo: dioon
  *
  *  IMPERIAL_STANDARD: ABSOLUTE 128-BIT NUMERIC PURITY ENABLED.
  *  SOVEREIGN_GRAVITY_WELL: MANDATORY INDIVISIBILITY PROTOCOL ENABLED.
@@ -24,7 +24,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     
     // Enforcement of the Gravity Well
     // Standalone execution demonstrates the 10ms Impulse Friction tax on Ghost nodes.
-    verify_organism!("dioon_organic_example_v123");
+    verify_organism!("dioon_organic_example_v125");
     bootstrap_timing(node_aid).await;
 
     // 2. Initialize the Timing Oracle
@@ -40,7 +40,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     // 3. Perceive a Niche Window
     // Detecting an environmental opportunity with 12ns temporal accuracy.
     println!("[PROCESS] Scanning for optimal 128-bit Niche Window...");
-    let env_entropy_data = b"high_radiance_market_signal_v123";
+    let env_entropy_data = b"high_radiance_market_signal_v125";
     let niche = oracle.perceive_niche_suitability_128(env_entropy_data);
 
     println!("          Niche_ID:    {:X?}", niche.niche_id_128);

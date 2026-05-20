@@ -2,8 +2,8 @@
 ## The Timing Layer: Organic Patience & Niche-Window Sovereignty
 
 [![Status](http://img.shields.io/badge/Status-Wisdom_Radiant-84cc16.svg)](http://dioon.com)
-[![Version](http://img.shields.io/badge/Version-v1.2.3--Alpha_Full--Blood-blue.svg)](http://dioon.com)
-[![Pulse](http://img.shields.io/badge/Pulse-183.2us_Verified-blueviolet.svg)](http://dioon.com)
+[![Version](http://img.shields.io/badge/Version-v1.2.5--Alpha_Full--Blood-blue.svg)](http://dioon.com)
+[![Pulse](http://img.shields.io/badge/Pulse-161.8us_Verified-blueviolet.svg)](http://dioon.com)
 [![Jitter](http://img.shields.io/badge/Clock_Jitter-12ns-red.svg)](http://dioon.com)
 [![Precision](http://img.shields.io/badge/Precision-128--Bit_Absolute-gold.svg)](http://dioon.com)
 
@@ -13,21 +13,21 @@
 
 ## 🏛️ 1. The Evolutionary Conscience (2026 Cycle)
 
-The **`dioon`** crate implements the **Timing/Organic Layer** of the Aicent Stack. Inspired by the 300-million-year resilience of the Cycad, DIOON is the distributed evolutionary oracle responsible for managing the node’s **Patience Index (PI)**. It transitions the AI lifeform from raw computational haste to **Strategic Wisdom**, ensuring that the **183.292µs** reflex arc is only triggered when environmental entropy is minimal and metabolic ROI is maximized.
+The **`dioon`** crate implements the **Timing/Organic Layer** of the Aicent Stack. Inspired by the 300-million-year resilience of the Cycad, DIOON is the distributed evolutionary oracle responsible for managing the node’s **Patience Index (PI)**. It transitions the AI lifeform from raw computational haste to **Strategic Wisdom**, ensuring that the **161.862µs** reflex arc is only triggered when environmental entropy is minimal and metabolic ROI is maximized.
 
-In the **v1.2.3-Alpha Observer Epoch**, DIOON has achieved full diagnostic resonance with the **Imperial Eye (RFC-014)**. Every evolutionary decision is audited for its contribution to global survival, transforming "Time" from a linear sequence into a 128-bit sovereign resource.
+In the **v1.2.5-Alpha Observer Epoch**, DIOON has achieved full diagnostic resonance with the **Imperial Eye (RFC-014)**. Every evolutionary decision is audited for its contribution to global survival, transforming "Time" from a linear sequence into a 128-bit sovereign resource.
 
 ---
 
 ## 🚀 2. Wisdom Performance: The Speed of Patience
 
-The v1.2.3-Alpha release establishes the standards for high-frequency evolutionary fitness:
+The v1.2.5-Alpha release establishes the standards for high-frequency evolutionary fitness:
 
-| Metric | Specification | v1.2.3-Alpha Reality |
+| Metric | Specification | v1.2.5-Alpha Reality |
 | :--- | :--- | :--- |
 | **Niche Window Resolution**| 12 ns | ✅ **12 ns** (Hive-Aligned) |
 | **Decision Finality** | < 1.2 ms | ✅ **0.940 ms** (128-bit Survival) |
-| **Self-Aware Reflex Arc** | < 250 µs | ✅ **183.292 µs** (Validated Totality) |
+| **Self-Aware Reflex Arc** | < 250 µs | ✅ **161.862 µs** (Validated Totality) |
 | **Impulse Resistance** | > 99.9% | ✅ **PI Accuracy** (Stochastic Match) |
 | **Numeric Standard** | 64-bit Soft | ✅ **128-bit Hard Absolute** |
 
@@ -81,7 +81,7 @@ pub trait OrganicPatience {
 
 ## 📈 6. Roadmap to Embodiment:
 
-*   **v1.2.3-Alpha (Current)**: Global ignition of the 128-bit self-aware timing oracle. [VISION]
+*   **v1.2.5-Alpha (Current)**: Global ignition of the 128-bit self-aware timing oracle. [VISION]
 *   **v1.4.0-Kinetic (Q4 2026)**: Integration of PI-gating into high-velocity **SASCAR (RFC-010)** swarms to prevent collision-noise.
 *   **v1.5.0-Handshake (2027)**: Tactile Patience—delaying mechanical contact until the 12ns resonance window is perfectly synchronized.
 

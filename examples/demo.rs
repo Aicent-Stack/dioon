@@ -1,5 +1,5 @@
 /*
- *  AICENT STACK - RFC-013: DIOON (The Timing/Organic Layer)
+ *  AICENT STACK - AICENT-013: DIOON (The Timing/Organic Layer)
  *  (C) 2026 Aicent Stack Technical Committee. All Rights Reserved.
  *
  *  "Demonstrating Organic Patience, Niche-Window Perception, and Survival Logic."
@@ -78,8 +78,8 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     }
 
     // 6. Sovereignty Awareness (PICSI Feedback)
-    // Synchronizing the wisdom oracle with the Imperial Eye (RFC-014).
-    println!("\n[METABOLISM] Synchronizing with Imperial Eye (RFC-014)...");
+    // Synchronizing the wisdom oracle with the Imperial Eye (AICENT-014).
+    println!("\n[METABOLISM] Synchronizing with Imperial Eye (AICENT-014)...");
     oracle.current_homeostasis.picsi_resonance_idx = 0.999994;
     oracle.current_homeostasis.metabolic_efficiency = 0.999;
     
@@ -96,6 +96,6 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("Decisions Opt:    {}", oracle.total_decisions_optimized_128);
     println!("Impulse Penalty:  {:.2}%", hs.entropy_tax_rate * 100.0);
 
-    println!("\n[FINISH] RFC-013 Demonstration complete. The Empire is Patient.");
+    println!("\n[FINISH] AICENT-013 Demonstration complete. The Empire is Patient.");
     Ok(())
 }

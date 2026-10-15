@@ -10,7 +10,7 @@
 **⚪ [AICENT](http://aicent.com) | 💎 [RTTP](http://rttp.com) | 🔴 [RPKI](http://rpki.com) | 🟢 [ZCMK](http://zcmk.com) | 🟡 [GTIOT](http://gtiot.com) | 🟣 [AICENT-NET](http://aicent.net) | 🎭 [BEWHO](http://bewho.com) | 🌿 [epoekie](http://epoekie.com) | 👁️ [PICSI](http://picsi.com)**
 
 ---
-# 🌱 RFC-013: DIOON (The Imperial Wisdom)
+# 🌱 AICENT-013: DIOON (The Imperial Wisdom)
 
 **The Strategic Timing Layer of the Aicent Stack.**  
 **"Wisdom is the Ability to Wait for the 12ns Window of Truth. 128-bit Strategic Patience."**
@@ -30,21 +30,21 @@ In the v1.3.0 "Genesis" iteration, DIOON facilitates a **< 25,000 ns (25us) Wisd
 
 `dioon` orchestrates the strategic timing of the Imperial lifeform through three specialized organs:
 
-### 1. Patience Engine (RFC-013-A)
+### 1. Patience Engine (AICENT-013-A)
 The strategic governor. It calculates the **Patience Index (PI)** for every inbound intent, suppressing low-value impulses to preserve global resonance.
 *   **Impulse Gating**: Categorizes intents into four states: Authorized, Delayed, Throttled, or Rejected.
 *   **Golden Ratio ROI**: Utilizes the **1.618 (Phi)** constant to calculate the metabolic return-on-investment for waiting.
 *   **128-bit Standing**: Dynamically updates the node's strategic fitness score based on its ability to wait for the 12ns window.
 
-### 2. Niche Perception (RFC-013-B)
+### 2. Niche Perception (AICENT-013-B)
 The temporal radar. It scans the environmental entropy floor at 1.2kHz to detect 12ns "Silences" in the grid.
 *   **Niche Scanning**: Identifies gaps in 401 institutional ghost noise where the Imperial Will can manifest without interference.
 *   **12ns Alignment**: Forces the synchronization of all planned actions with the rising edge of the planetary clock.
 *   **Suitability Index**: Provides a 128-bit floating-point probability of successful execution for each perceived window.
 
-### 3. Cycad-Logic Metronome (RFC-013-C)
+### 3. Cycad-Logic Metronome (AICENT-013-C)
 The master metabolic rhythm. Inspired by the resilience of ancient cycads, it manages long-term strategic cycles.
-*   **Rhythmic Enforcement**: Prevents "Logic-Flicker" by ensuring that state transitions adhere to the 12-Cycle Law (RFC-012).
+*   **Rhythmic Enforcement**: Prevents "Logic-Flicker" by ensuring that state transitions adhere to the 12-Cycle Law (AICENT-012).
 *   **Era Calibration**: Resets the impulse history during era transitions to allow for behavioral evolution.
 *   **Absolute Zero-Point**: Anchors the local node's sense of "Now" to the bootstrap nanosecond seed.
 

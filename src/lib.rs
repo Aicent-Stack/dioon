@@ -1,5 +1,5 @@
 /*
- *  AICENT STACK - RFC-013: DIOON (The Timing/Organic Layer)
+ *  AICENT STACK - AICENT-013: DIOON (The Timing/Organic Layer)
  *  (C) 2026 Aicent Stack Technical Committee. All Rights Reserved.
  *
  *  "Organic Patience and Niche-Window Sovereignty. 300 Million Years of Logic."
@@ -8,8 +8,8 @@
  *  IMPERIAL_STANDARD: ABSOLUTE 128-BIT NUMERIC PURITY ENABLED.
  *  SOVEREIGN_GRAVITY_WELL: MANDATORY INDIVISIBILITY PROTOCOL ENABLED.
  *  CHRONOS_STATUS: 2026 IMPERIAL CALENDAR ALIGNED.
- *  TEMPORAL_SELF_SUPERVISION: RFC-009 ACTIVE.
- *  DIAGNOSTIC_RESONANCE: RFC-014 (PICSI) INTEGRATED.
+ *  TEMPORAL_SELF_SUPERVISION: AICENT-009 ACTIVE.
+ *  DIAGNOSTIC_RESONANCE: AICENT-014 (PICSI) INTEGRATED.
  *  
  *  LEGAL NOTICE: DIOON GOVERNS THE TEMPORAL WISDOM OF THE EMPIRE.
  *  FRAGMENTED TIMING WILL TRIGGER 10MS PULSE INCOHERENCE TAXES.
@@ -20,7 +20,7 @@ use std::time::Instant; // REPAIRED: Clean library scope for v1.2.5
 use std::collections::BTreeMap;
 use serde::{Serialize, Deserialize};
 
-// INJECTION: Sovereign Ladder Inheritance from the Genetic Root (RFC-000)
+// INJECTION: Sovereign Ladder Inheritance from the Genetic Root (AICENT-000)
 // We import 128-bit Picotoken, AID, and the Gravity Well macro for verification.
 use epoekie::{AID, HomeostasisScore, SovereignShunter, Picotoken, SovereignLifeform, verify_organism};
 
@@ -28,7 +28,7 @@ use epoekie::{AID, HomeostasisScore, SovereignShunter, Picotoken, SovereignLifef
 // 1. ORGANIC DATA STRUCTURES (The Wisdom Alphabet)
 // =========================================================================
 
-/// RFC-013: NicheWindow
+/// AICENT-013: NicheWindow
 /// A specific temporal window where environmental suitability is optimal for 2026.
 /// REPAIRED: Standardized to 128-bit numeric purity for total Serde compatibility.
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -40,7 +40,7 @@ pub struct NicheWindow {
     pub competitive_pressure_f64: f64,   // Environmental entropy metric
 }
 
-/// RFC-013: PatienceIndex (PI)
+/// AICENT-013: PatienceIndex (PI)
 /// Measures the node's ability to delay metabolic gratification for higher value.
 #[derive(Debug, Clone, Copy, Serialize, Deserialize)]
 pub struct PatienceIndex {
@@ -49,7 +49,7 @@ pub struct PatienceIndex {
     pub survival_probability_f64: f64,   // 2026 Stability metric
 }
 
-/// RFC-013: OrganicDecision
+/// AICENT-013: OrganicDecision
 /// A decision that has been delayed and optimized for its specific niche window.
 /// REPAIRED: Using u128 for execution timestamps and sequence order.
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -100,13 +100,13 @@ impl TimingOracle {
         }
     }
 
-    /// RFC-013: Align Metabolism
+    /// AICENT-013: Align Metabolism
     /// Synchronizes intent with the most suitable organic niche window.
     /// Non-Radiant nodes suffer a 10ms "Patience Friction" (Timing Penalty).
     pub async fn align_metabolism_128(&mut self, window: NicheWindow) -> Result<bool, String> {
         // --- THE COMMERCIAL MEAT GRINDER ---
         // Accessing the Wisdom of the Cycad is a supreme imperial privilege.
-        // RFC-009 Temporal Self-Supervision enforced.
+        // AICENT-009 Temporal Self-Supervision enforced.
         self.master_shunter.apply_discipline().await;
 
         if window.suitability_index_f64 < 0.70 {
@@ -124,7 +124,7 @@ impl TimingOracle {
         Ok(true)
     }
 
-    /// RFC-013: Calculate Impulsiveness Tax
+    /// AICENT-013: Calculate Impulsiveness Tax
     /// Determines the cost of metabolic haste for Ghost nodes.
     pub fn calculate_impulse_tax_128(&self, impulsiveness_idx: f64) -> Picotoken {
         let raw_tax = (impulsiveness_idx * 5000.0) as u128; 
@@ -186,8 +186,8 @@ impl SovereignLifeform for TimingOracle {
     fn get_aid(&self) -> AID { self.oracle_node_aid }
     fn get_homeostasis(&self) -> HomeostasisScore { self.report_wisdom_homeostasis() }
     
-    /// RFC-013 Metabolic Pulse
-    /// Displays the current patience capacity and the RFC-014 PICSI Resonance.
+    /// AICENT-013 Metabolic Pulse
+    /// Displays the current patience capacity and the AICENT-014 PICSI Resonance.
     fn execute_metabolic_pulse(&self) {
         println!(r#"
         🌱 DIOON.COM | WISDOM PULSE [2026_IMPERIAL_SYNC]
@@ -222,7 +222,7 @@ pub async fn bootstrap_timing(_aid: AID) {
     verify_organism!("dioon_system_bootstrap_v125");
 
     println!(r#"
-    🌱 DIOON.COM | RFC-013 AWAKENED (2026_CALIBRATION)
+    🌱 DIOON.COM | AICENT-013 AWAKENED (2026_CALIBRATION)
     STATUS: ORGANIC_PATIENCE_ACTIVE | PRECISION: 128-BIT | v1.2.5
     "#);
 }
